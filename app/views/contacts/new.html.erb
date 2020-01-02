@@ -1,19 +1,4 @@
-<% content_for :title do %>Contact<% end %>
-<h3>Contact</h3>
-<div class="form">
-  <%= form_with(model: @contact) do |form| %>
-    <%= form.label :name %>
-    <%= form.text_field :name, autofocus: true %>
-    <br/>
-    <br/>
-    <%= form.label :email %>
-    <%= form.email_field :email %>
-    <br/>
-    <br/>
-    <%= form.label 'message' %>
-    <%= form.text_area :content, size: '40x5' %>
-    <br/>
-    <br/>
-    <%= form.submit 'Submit', class: 'submit' %>
-  <% end %>
-</div>
+<% content_for :title do %>Social Media<% end %>
+<h1>Social Media</h1>
+<p><a target="_blank" href="https://www.instagram.com/mio.line">Instagram</a><p>
+<p><a target="_blank" href="https://twitter.com/miolinela">Twitter</a><p>
